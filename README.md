@@ -6,7 +6,7 @@ Assistente técnica e empática desenvolvida para o Hub Encontro d’Água 🌊�
 
 Clique no botão abaixo para criar sua própria instância n8n com a Amazô já configurada:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/n8n-templates/amazo-hub-n8n)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/arara-coder/amazo-hub-n8n)
 
 ## ✨ O que está incluído
 
