@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: amazo-hub
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "amazo"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "amazoforte123"
+      - key: GENERIC_TIMEZONE
+        value: "America/Manaus"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "true"
+    disk:
+      name: amazo-data
+      mountPath: /home/node/.n8n
+      sizeGB: 1

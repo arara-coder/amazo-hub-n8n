@@ -1,16 +1,7 @@
-# 🌿 Amazô Hub — n8n Self-hosted (Render)
+# 🌿 Amazô Hub — n8n Self-hosted com Persistência
 
-Assistente técnica e empática desenvolvida para o Hub Encontro d’Água 🌊✨
+Este projeto é a base da IA Amazô, a assistente técnica do Hub Encontro d’Água, com deploy via Render e armazenamento persistente.
 
 ## 🚀 Deploy to Render
 
-Clique no botão abaixo para criar sua própria instância n8n com a Amazô já configurada:
-
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/arara-coder/amazo-hub-n8n)
-
-## ✨ O que está incluído
-
-- n8n 1.44+ com Webhook `/amazo`
-- Integração com Telegram
-- IA Hugging Face (`bloom-560m`)
-- Workflow importável pronto para ativar
